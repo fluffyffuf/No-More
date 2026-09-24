@@ -1,0 +1,14 @@
+target: example.com
+
+scope:
+  include:
+    - "*.example.com"
+  exclude:
+    - "admin.example.com"
+
+testing:
+  passive: true
+  active: false
+  rate_limit: 5
+
+profile: standard
